@@ -338,6 +338,8 @@ void MarkerManagerPrivate::SetMarker(const msgs::Marker &_msg,
     _markerPtr->ClearPoints();
   }
 
+  _markerPtr->SetText(_msg.text());
+
   math::Color color(
       _msg.material().diffuse().r(),
       _msg.material().diffuse().g(),
