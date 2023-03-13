@@ -21,7 +21,7 @@
 #include <optional>
 #include <string>
 
-#include <gz/utils/ImplPtr.hh>
+#include <ignition/utils/ImplPtr.hh>
 
 #include <ignition/math/Pose3.hh>
 

@@ -22,7 +22,7 @@
 #include <string>
 #include <vector>
 
-#include <gz/utils/ImplPtr.hh>
+#include <ignition/utils/ImplPtr.hh>
 
 #include <ignition/math/Angle.hh>
 #include <ignition/math/Color.hh>

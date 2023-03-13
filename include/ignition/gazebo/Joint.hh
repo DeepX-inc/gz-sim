@@ -23,7 +23,7 @@
 #include <vector>
 
 #include <gz/msgs/wrench.pb.h>
-#include <gz/utils/ImplPtr.hh>
+#include <ignition/utils/ImplPtr.hh>
 
 #include <ignition/math/Pose3.hh>
 #include <ignition/math/Vector2.hh>
